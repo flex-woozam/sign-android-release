@@ -33,7 +33,7 @@ export async function signApkFile(
         apkFile
     ]);
     
-    await exec.exec(`"cp"`, [
+    await exec.exec(`"copy"`, [
         apkFile,
         alignedApkFile
     ]);
